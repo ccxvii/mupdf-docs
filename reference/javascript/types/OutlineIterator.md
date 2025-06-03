@@ -20,25 +20,25 @@ OutlineIterator instances are returned by [`Document.prototype.outlineIterator()
 
 Navigation return codes:
 
-### ITERATOR_DID_NOT_MOVE
+### OutlineIterator.ITERATOR_DID_NOT_MOVE
 
 Movement was not possible.
 
-### ITERATOR_AT_ITEM
+### OutlineIterator.ITERATOR_AT_ITEM
 
 New position has a valid item.
 
-### ITERATOR_AT_EMPTY
+### OutlineIterator.ITERATOR_AT_EMPTY
 
 New position has no item, but one can be inserted here.
 
 Style bit flags:
 
-### FLAG_BOLD
+### OutlineIterator.FLAG_BOLD
 
 Bit is set outline item style is bold.
 
-### FLAG_ITALIC
+### OutlineIterator.FLAG_ITALIC
 
 Bit is set if outline item style is italic.
 

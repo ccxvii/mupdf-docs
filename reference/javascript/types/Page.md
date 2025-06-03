@@ -45,55 +45,58 @@ var rect = page.getBounds()
 ### Page.prototype.run(device, transform)
 
 Calls device functions for all the contents on the page, using the
-specified transform. The [Device](Device.md) can be one of the built-in
-devices or a Javascript object with methods for the device calls. The
-matrix maps from user space points to device space pixels.
+specified transform.
+
+The device can be one of the built-in devices ([DrawDevice](DrawDevice.md) and [DisplayListDevice](DisplayListDevice.md))
+or a Javascript [Device](Device.md).
+
+The matrix transforms coordinates from user space to device space.
 
 * **Arguments:**
   * **device** ([`Device`](Device.md#Device)) – The device object.
   * **matrix** ([`Matrix`](Matrix.md#Matrix)) – The transformation matrix.
 
 ```javascript
-page.run(obj, mupdf.Matrix.identity)
+page.run(dev, mupdf.Matrix.identity)
 ```
 
 ### Page.prototype.runPageContents(device, transform)
 
 This is the same as the [`Page.prototype.run()`](#Page.prototype.run) method above but it only
-considers the page itself and omits annotations and widgets.
+runs the page itself and omits annotations and widgets.
 
 * **Arguments:**
   * **device** ([`Device`](Device.md#Device)) – The device object.
   * **matrix** ([`Matrix`](Matrix.md#Matrix)) – The transformation matrix.
 
 ```javascript
-page.runPageContents(obj, mupdf.Matrix.identity)
+page.runPageContents(dev, mupdf.Matrix.identity)
 ```
 
 ### Page.prototype.runPageAnnots(device, transform)
 
 This is the same as the [`Page.prototype.run()`](#Page.prototype.run) method above but it only
-considers the page annotations.
+runs the page annotations.
 
 * **Arguments:**
   * **device** ([`Device`](Device.md#Device)) – The device object.
   * **matrix** ([`Matrix`](Matrix.md#Matrix)) – The transformation matrix.
 
 ```javascript
-page.runPageAnnots(obj, mupdf.Matrix.identity)
+page.runPageAnnots(dev, mupdf.Matrix.identity)
 ```
 
 ### Page.prototype.runPageWidgets(device, transform)
 
 This is the same as the [`Page.prototype.run()`](#Page.prototype.run) method above but it only
-considers the page widgets.
+runs the page widgets.
 
 * **Arguments:**
   * **device** ([`Device`](Device.md#Device)) – The device object.
   * **matrix** ([`Matrix`](Matrix.md#Matrix)) – The transformation matrix.
 
 ```javascript
-page.runPageWidgets(obj, mupdf.Matrix.identity)
+page.runPageWidgets(dev, mupdf.Matrix.identity)
 ```
 
 ### Page.prototype.toPixmap(matrix, colorspace, alpha, showExtras)

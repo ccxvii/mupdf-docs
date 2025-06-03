@@ -259,8 +259,6 @@ var isPDF = document.isPDF()
 
 ### Document.prototype.asPDF()
 
-<span class="only_mutool">only&nbsp;mutool&nbsp;run</span>
-
 Returns a PDF version of the document (if possible).
 PDF documents return themselves.
 Documents that have an underlying PDF representation return that.

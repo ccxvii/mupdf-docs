@@ -1050,15 +1050,6 @@ doc.deletePageLabels(0)
 
 ## Saving
 
-### PDFDocument.prototype.update()
-
-Applies any pending updates to the document, such as form
-recalculations or annotation appearance changes.
-
-If you’ve changed any forms or annotations and have not yet called
-[`PDFPage.prototype.update`](PDFPage.md#PDFPage.prototype.update) or [`PDFAnnotation.prototype.update`](PDFAnnotation.md#PDFAnnotation.prototype.update); then
-you will need to invoke this method before saving a document.
-
 ### PDFDocument.prototype.canBeSavedIncrementally()
 
 Returns whether the document can be saved incrementally, e.g.
