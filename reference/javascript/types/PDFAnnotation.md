@@ -890,7 +890,7 @@ annotation.setBorderEffectIntensity(1.5)
 Callouts are used with FreeText annotations and
 allow for a graphical line to point to an area on a page.
 
-![Callout annotation](images/callout-annot.png)
+![Callout annotation](../../../images/callout-annot.png)
 
 ### PDFAnnotation.prototype.hasCallout()
 
@@ -1268,7 +1268,7 @@ In a PDF line leaders refer to two lines at the ends of the line annotation,
 oriented perpendicular to the line itself. These are common in technical
 drawings when illustrating distances.
 
-![Leader lines explained](images/leader-lines.png)
+![Leader lines explained](../../../images/leader-lines.png)
 
 ### PDFAnnotation.prototype.setLineLeader(v)
 
@@ -1359,7 +1359,7 @@ indicating a shift up and a negative value indicating a shift down.
 
 Setting a point of [0, 0] removes the caption offset.
 
-![Offset caption explained](images/offset-caption.png)
+![Offset caption explained](../../../images/offset-caption.png)
 * **Arguments:**
   * **point** ([`Point`](Point.md#Point)) – A point specifying the offset of the caption text from its normal position.
 

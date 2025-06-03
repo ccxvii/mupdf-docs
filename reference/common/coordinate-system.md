@@ -3,7 +3,7 @@
 In PDF, the origin (0, 0) of a page is located at its bottom-left corner. In
 MuPDF, the origin of a page is located at its top-left corner.
 
-![image](images/img-coordinate-space.webp)
+![image](../../images/img-coordinate-space.webp)
 
 The exact coordinate of the page’s corner may not always be (0, 0) but is
 defined by its CropBox in relation to the MediaBox.
@@ -26,7 +26,7 @@ var rectangle = [0,0,200,200]
 
 Results in:
 
-![image](images/200x200-rect.webp)
+![image](../../images/200x200-rect.webp)
 
 ## Working at the PDF object level
 

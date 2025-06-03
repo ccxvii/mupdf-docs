@@ -41,7 +41,7 @@ Blend Mode
   For further details refer to the PDF specification’s [section
   on blend modes](https://opensource.adobe.com/dc-acrobat-sdk-docs/pdfstandards/pdfreference1.7old.pdf#G12.12449365).
   <br/>
-  ![image](images/blendmodes.svg)
+  ![image](../../images/blendmodes.svg)
 
 <a id="term-Border-Effect"></a>
 
@@ -139,7 +139,7 @@ Knockout and Isolation
   and
   [knockout](https://opensource.adobe.com/dc-acrobat-sdk-docs/pdfstandards/pdfreference1.7old.pdf#G12.1689478).
   <br/>
-  ![image](images/knockout-isolated.svg)
+  ![image](../../images/knockout-isolated.svg)
 
 <a id="term-Language-code"></a>
 
@@ -159,7 +159,7 @@ Line Cap Style
   refer to the PDF specifications section about [Line Cap Styles](https://opensource.adobe.com/dc-acrobat-sdk-docs/pdfstandards/pdfreference1.7old.pdf#G9.1849678)
   for details.
   <br/>
-  ![image](images/line-caps.svg)
+  ![image](../../images/line-caps.svg)
 
 <a id="term-Line-Ending-Style"></a>
 
@@ -169,7 +169,7 @@ Line Ending Style
   The example uses black line color, with both none and
   blue interior color.
   <br/>
-  ![image](images/line-ending-styles.svg)
+  ![image](../../images/line-ending-styles.svg)
 
 <a id="term-Line-Join-Style"></a>
 
@@ -180,7 +180,7 @@ Line Join Style
   Join Styles](https://opensource.adobe.com/dc-acrobat-sdk-docs/pdfstandards/pdfreference1.7old.pdf#G9.1849699)
   for details.
   <br/>
-  ![image](images/line-joins.svg)
+  ![image](../../images/line-joins.svg)
 
 <a id="term-MIME-type"></a>
 
@@ -204,7 +204,7 @@ Miter Limit
   [Miter Limit](https://opensource.adobe.com/dc-acrobat-sdk-docs/pdfstandards/pdfreference1.7old.pdf#G9.3859627)
   for details.
   <br/>
-  ![image](images/miter-limit.svg)
+  ![image](../../images/miter-limit.svg)
 
 <a id="term-Page-Box"></a>
 

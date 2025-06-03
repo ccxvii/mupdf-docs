@@ -53,7 +53,7 @@ path.closePath()
 Append operation drawing a cubic Bézier curve from the current point
 to (x3, y3) using (x1, y1) and (x2, y2) as control points.
 
-![image](images/curveTo.svg)
+![image](../../../images/curveTo.svg)
 * **Arguments:**
   * **x1** (`number`) – X1 coordinate.
   * **y1** (`number`) – Y1 coordinate.
@@ -72,7 +72,7 @@ Append operation drawing a cubic Bézier curve from the current point
 to (ex, ey) using the current point and (cx, cy) as control points.
 Will be converted to [`Path.prototype.curveTo()`](#Path.prototype.curveTo) when appended to this Path.
 
-![image](images/curveToV.svg)
+![image](../../../images/curveToV.svg)
 * **Arguments:**
   * **cx** (`number`) – CX coordinate.
   * **cy** (`number`) – CY coordinate.
@@ -89,7 +89,7 @@ Append operation drawing a cubic Bézier curve from the current point
 to (ex, ey) using the (cx, cy) and (ex, ey) as control points. Will be
 converted to [`Path.prototype.curveTo()`](#Path.prototype.curveTo) when appended to this Path.
 
-![image](images/curveToY.svg)
+![image](../../../images/curveToY.svg)
 * **Arguments:**
   * **cx** (`number`) – CX coordinate.
   * **cy** (`number`) – CY coordinate.
@@ -130,7 +130,7 @@ var rect = path.getBounds(strokeState, mupdf.Matrix.identity)
 Append operation drawing a straight line from the current point to the
 given point.
 
-![image](images/lineTo.svg)
+![image](../../../images/lineTo.svg)
 * **Arguments:**
   * **x** (`number`) – X coordinate.
   * **y** (`number`) – Y coordinate.
@@ -164,7 +164,7 @@ lineto(x1, y2)
 closePath()
 ```
 
-![image](images/rect.svg)
+![image](../../../images/rect.svg)
 * **Arguments:**
   * **x1** (`number`) – X1 coordinate.
   * **y1** (`number`) – Y1 coordinate.

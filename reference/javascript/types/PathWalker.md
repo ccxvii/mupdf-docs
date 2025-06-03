@@ -20,7 +20,7 @@ Called when [`Path.prototype.walk()`](Path.md#Path.prototype.walk) encounters an
 curve from the current point to (x3, y3) using (x1, y1) and (x2, y2)
 as control points.
 
-![image](images/curveTo.svg)
+![image](../../../images/curveTo.svg)
 * **Arguments:**
   * **x1** (`number`) – X1 coordinate.
   * **y1** (`number`) – Y1 coordinate.
@@ -34,7 +34,7 @@ as control points.
 Called when [`Path.prototype.walk()`](Path.md#Path.prototype.walk) encounters an operation drawing a straight
 line from the current point to the given point.
 
-![image](images/lineTo.svg)
+![image](../../../images/lineTo.svg)
 * **Arguments:**
   * **x** (`number`) – X coordinate.
   * **y** (`number`) – Y coordinate.
